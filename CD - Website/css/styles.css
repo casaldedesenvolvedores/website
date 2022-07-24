@@ -1,0 +1,153 @@
+body {
+  background-color: #080B0D;
+  color: #EFEFEF;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 76.8px;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: normal;
+  width: 40%;
+  font-size: 16px;
+  padding: 73px 0;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+p {
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: normal;
+  width: 260px;
+  font-size: 12px;
+}
+
+.photo_couple {
+  float: left;
+  width: 120px;
+  margin: 32px 40px 58px 0;
+}
+
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-width: 1px;
+  width: 80%;
+  color: #283036;
+  margin: 0 auto;
+}
+
+.line_header {
+  border-style: solid solid none none;
+  height: 160px;
+  border-radius: 0 40px;
+}
+
+.header {
+  height: 96px;
+}
+
+.logo_png {
+  padding-left: 152px;
+  position: absolute;
+  padding-top: 36px;
+}
+
+.contenier_principal {
+  margin: -64px auto;
+  width: 80%;
+
+}
+
+.contenier_more {
+  display: flex;
+  /* flex-wrap: wrap;
+  justify-content: space-evenly; */
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text_more {
+  margin: 32px 48px 0 0;
+}
+
+.contenier_projects {
+  border-style: none;
+  border-right: 1px solid;
+  border-color: #283036;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contenier_about {
+  border-style: none;
+  border-right: 1px solid;
+  border-color: #283036;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contenier_contact {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon_more {
+  float: left;
+  margin: 32px 24px 88px 40px;
+}
+
+
+.footer {
+  background-color: #080B0D;
+  font-family: "Source Code Pro", serif;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 16px 0;
+  color: #64727D;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_footer_criated {
+  display: inline-block;
+}
+
+.text_footer_copyright {
+  display: inline-block;
+  width: auto;
+}
+
+.effect_top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.effect_bottom_left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.effect_bottom_right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
